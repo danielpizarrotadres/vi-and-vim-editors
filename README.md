@@ -41,3 +41,15 @@
       **vi** is the Unix command that invokes the vi editor for an existing file or for a brand new file. The syntax for the **vi** command is:
             
                         $ vi [filename]
+
+- ### vi Commands
+
+    **vi** has two modes: command mode and insert mode. As soon as you enter a file, you are in command mode, and the editor is waiting for you to enter a command. Commands enable you to move anywhere in the file, to perform edits, or to enter insert mode to add new text. Commands can also be given to exit the file (saving or ignoring your edits) in order to return to the Unix prompt.
+
+    You can think of the different modes as representing two different keyboards. In insert mode, your keyboard functions like a typewriter. In command mode, each key has a new meaning or initiates some instruction.
+
+    When you open a new file, **vi** starts in *command mode* and interprets the first keystroke (i) as the insert command. All keystrokes made after the nsert command are considered text until you press **ESC**. If you need to correct a mistake while in insert mode, back-space and type over the error.
+  
+  - ### Opening a File
+ 
+      **vi** is the Unix command that invokes the vi editor for an existing file or for a brand new file. The syntax for the **vi** command is:
