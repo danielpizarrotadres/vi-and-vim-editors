@@ -36,11 +36,17 @@
 
                         $ vi /home/john/letter
 
-  - ### Opening a File
+  - ### Quitting Without Saving Edits
  
-      **vi** is the Unix command that invokes the vi editor for an existing file or for a brand new file. The syntax for the **vi** command is:
+      What if you want to wipe out all of the edits you have made in a session and then return to the original file? The command:
             
-                        $ vi [filename]
+                        $ :e!
+
+      returns you to the last saved version of the file, so you can start over.
+ 
+      Suppose, however, that you want to wipe out yours edits and then just quit **vi?** The command:
+            
+                        $ :q!
 
 - ### vi Commands
 
