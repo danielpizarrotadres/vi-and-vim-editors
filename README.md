@@ -36,6 +36,14 @@
 
                         $ vi /home/john/letter
 
+  - ### Saving and Quitting a File
+
+      You can quit working on a file at any time, save your edits, and return to the Unix prompt. The **vi** command to quit and save edits is **ZZ**. Note that **ZZ** is capitalized.
+
+      Let us assume that you do create a file called *practice* to practice vi commands, and that you type in six lines of text. To save the file, first check that you are in command mode by pressing *ESC*, and then **ZZ**.
+
+      You can also save your edits with ex commands. Type **:w** to save (write) your file but not quit **vi**; type **:q** to quit if you have not made any edits; and type **:wq** to both save your edits and quit. (**:wq** is equivalent to **ZZ**.)
+
   - ### Quitting Without Saving Edits
  
       What if you want to wipe out all of the edits you have made in a session and then return to the original file? The command:
