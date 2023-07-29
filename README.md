@@ -56,14 +56,26 @@
             
                         $ :q!
 
-- ### vi Commands
+- ### Simple Editing
+    
+    - ### vi Commands
+    
+        **vi** has two modes: command mode and insert mode. As soon as you enter a file, you are in command mode, and the editor is waiting for you to enter a command. Commands enable you to move anywhere in the file, to perform edits, or to enter insert mode to add new text. Commands can also be given to exit the file (saving or ignoring your edits) in order to return to the Unix prompt.
+    
+        You can think of the different modes as representing two different keyboards. In insert mode, your keyboard functions like a typewriter. In command mode, each key has a new meaning or initiates some instruction.
+    
+      There are several ways to tell **vi** that you want to begin insert mode. One of the most common is to press **i**. The **i** does not appear on the screen, but after you press it, whatever you type will appear on the screen and will be entered into the buffer. The cursor marks the current insertion point. To tell **vi** that you want to stop inserting text, press *ESC*. Pressing *ESC* moves the cursor back one space (so that it is on the last character you typed) and returns **vi** to command mode.
+    
+        When you open a new file, **vi** starts in *command mode* and interprets the first keystroke (i) as the insert command. All keystrokes made after the nsert command are considered text until you press **ESC**. If you need to correct a mistake while in insert mode, back-space and type over the error.
 
-    **vi** has two modes: command mode and insert mode. As soon as you enter a file, you are in command mode, and the editor is waiting for you to enter a command. Commands enable you to move anywhere in the file, to perform edits, or to enter insert mode to add new text. Commands can also be given to exit the file (saving or ignoring your edits) in order to return to the Unix prompt.
+    - ### Moving the Cursor
 
-    You can think of the different modes as representing two different keyboards. In insert mode, your keyboard functions like a typewriter. In command mode, each key has a new meaning or initiates some instruction.
+        You may spend only a small amount of time in an editing session adding new text in insert mode; much of the time you will be making edits to existing text.
 
-    When you open a new file, **vi** starts in *command mode* and interprets the first keystroke (i) as the insert command. All keystrokes made after the nsert command are considered text until you press **ESC**. If you need to correct a mistake while in insert mode, back-space and type over the error.
-  
-  - ### Opening a File
+        In command mode you can position the cursor anywhere in the file. Since you begin all basic edits (changing, deleting, and copying text) by placing the cursor at the text that you want to change, you want to be able to move the cursor to that place as quickly as possible.
  
-      **vi** is the Unix command that invokes the vi editor for an existing file or for a brand new file. The syntax for the **vi** command is:
+        There are **vi** commands to move the cursor:
+
+        - Up, down, left or right—one *character* at a time
+        - Forward or backward by blocks of *text* such as wwords, sentences, or paragraphs
+        - Forward or backward through a file, one screen at a time
