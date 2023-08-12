@@ -88,6 +88,6 @@
         - k = Up, one line
         - l = Right, one space
 
-      - ### Numeric Arguments
+    - ### Numeric Arguments
      
         You can precede movement commands with numbers. The command `4l` allow us move the cursor four spaces to the right, just as if you had typed `l`four times (`llll`).
