@@ -96,3 +96,8 @@
      
         - 0 (digit zero) = Move to beginning of file
         - $ = Move to end of file
+
+
+    - ### Movement by Text Blocks
+     
+        You can also moove the cursor by blocks of text: words, sentences, paragraphs, etc. The `w` command moves the cursor forward one word at a time, counting symbols and punctuation as equivalent to words.
