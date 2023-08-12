@@ -79,3 +79,15 @@
         - Up, down, left or right—one *character* at a time
         - Forward or backward by blocks of *text* such as wwords, sentences, or paragraphs
         - Forward or backward through a file, one screen at a time
+
+    - ### Single Movements
+
+        The keys **h**, **j**, **k**, and **l**, right under your fingertips, will move the cursor:
+        - h = Left, one space
+        - j = Down, one line
+        - k = Up, one line
+        - l = Right, one space
+
+      - ### Numeric Arguments
+     
+        You can precede movement commands with numbers. The command `4l` allow us move the cursor four spaces to the right, just as if you had typed `l`four times (`llll`).
