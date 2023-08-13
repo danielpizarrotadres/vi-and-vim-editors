@@ -99,5 +99,9 @@
 
 
     - ### Movement by Text Blocks
-     
-        You can also moove the cursor by blocks of text: words, sentences, paragraphs, etc. The `w` command moves the cursor forward one word at a time, counting symbols and punctuation as equivalent to words.
+    
+        - [ ] You can also moove the cursor by blocks of text: words, sentences, paragraphs, etc. The `w` command moves the cursor forward one word at a time, counting symbols and punctuation as equivalent to words.
+        - [ ] You can also move by word, not counting symbols and punctuation, using the W command. (You can thinkg of this as a "capital" Word.)
+        - [ ] To move backward by word, use the **b** command. Capital B allows you to move backward by word, not counting punctuation.
+        - [ ] Movement commands take numeric arguments; so, with either the **w** or **b** commands you can multiply the movoement with numbers. **2w** moves forward two words; **5B** moves back five words, not counting punctuation
+        - [ ] To move to a specific line, you can use the **G** command. Plain **G** goes to the end of the file, **1G** goes to the top of the file, and **42G** goes to line 42.
