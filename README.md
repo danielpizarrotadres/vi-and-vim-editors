@@ -105,3 +105,18 @@
         - [ ] To move backward by word, use the **b** command. Capital B allows you to move backward by word, not counting punctuation.
         - [ ] Movement commands take numeric arguments; so, with either the **w** or **b** commands you can multiply the movoement with numbers. **2w** moves forward two words; **5B** moves back five words, not counting punctuation
         - [ ] To move to a specific line, you can use the **G** command. Plain **G** goes to the end of the file, **1G** goes to the top of the file, and **42G** goes to line 42.
+
+    - ### Simple Edits
+     
+        Once you enter text, you have to be able to change it, delete it, move it or copy it.
+
+        In **vi** you can perfom any of these edits with a few basic keystrokes:
+
+        - [ ] **i** for insert
+        - [ ] **a** for append
+        - [ ] **c** for change
+        - [ ] **d** for delete
+
+        ✨ To move or copy text, you use pairs of commands. You move text with a **d** for "delete", then a **p** for "put".
+      
+        ✨ You copy text with a **y** for "yank", then a **p** for "put".
