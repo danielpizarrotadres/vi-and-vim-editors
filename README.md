@@ -92,7 +92,7 @@
      
         You can precede movement commands with numbers. The command `4l` allow us move the cursor four spaces to the right, just as if you had typed `l`four times (`llll`).
 
-    - ### Movement withih a line
+    - ### Movement within a line
      
         - 0 (digit zero) = Move to beginning of file
         - $ = Move to end of file
