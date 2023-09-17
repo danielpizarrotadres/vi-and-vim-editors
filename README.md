@@ -120,3 +120,7 @@
         ✨ To move or copy text, you use pairs of commands. You move text with a **d** for "delete", then a **p** for "put".
       
         ✨ You copy text with a **y** for "yank", then a **p** for "put".
+
+    - ### Appending Text
+
+        You can precede movement commands with numbers. The command `4l` allow us move the cursor four spaces to the right, just as if you had typed `l`four times (`llll`).
