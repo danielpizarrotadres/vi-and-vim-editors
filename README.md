@@ -128,5 +128,20 @@
     - ### Changing Text
 
         You can replace any text in your file with the change command, c.
-      
-      🏗️
+
+        To tell c how much text to change, you combine c with a **movement command** (See movements command above). In this way, a movement command serves as a `text object` for the c command to affect. For example, c can be used to change text from the cursor:
+
+        - [ ] **cw** To the end of a word
+        - [ ] **c2b** Back two words
+        - [ ] **c$** To the end of line
+        - [ ] **c0** To the beginning of line
+
+        After issuing a change command, you can replace the identified text with any amount of new text, with no characters at all, with one word, or with hundreds of lines. c, like i and a, leaves you in insert mode until you press the ESC key.
+
+      When the change affects only the current line, vi marks the end of the text what will be changed with a $ sign, so that you can see what part of the line is affected. (See the example for cw, next.)
+
+      **Words**
+
+      To change a word, combine the c (change) command with w for word. You can replace a word (cw) with a longer or shorter word (or any amount of text). cw can be thought of as "delete the word marked and insert new text until ESC is pressed."
+
+      cw also works on a portion of a word. For example, to change *spelling* to *spelled*, you can position the cursor on the *i* letter, type cw, then type ed, and finish with ESC.
