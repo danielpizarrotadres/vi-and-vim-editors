@@ -124,3 +124,9 @@
     - ### Appending Text
 
         You can append text at any place in your file with the append command, a. This works in almost the same way as i, except that text is inserted **after** the cursor rather than **before** the cursor. You may have oticed that when you press i to enter insert mode, the cursor does not move until after you enter some text. By contrast, when you press **a** to enter insert mode, the cursor moves one space to the right. When you enter text, it appears after the original cursor position.
+
+    - ### Changing Text
+
+        You can replace any text in your file with the change command, c.
+      
+      🏗️
