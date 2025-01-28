@@ -1,5 +1,9 @@
 - ### The vi Text Editor
 
+- ### Turn off beep sound
+
+                        $ :set visualbell
+
 - ### Opening and Closing Files
 
     You can use vi to edit any text file. vi copies the file to be edited into a *buffer* (an area temporarily set aside in memory), displays the buffer (though you can see only one screenful at a time), and lets you add, delete, and change text. When you save your edits, vi copies the edited buffer back into a permanent file, replacing the old file of the same name. Remember that you are always working on a copy of your file in hte buffer, and that your edits will not affect your original file until you save the buffer. Saving your edits is also called "writing the buffer", or more commonly, "writing your file".
